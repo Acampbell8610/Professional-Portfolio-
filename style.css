@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    
 
 }
-
+/*start of header*/
 header{
     padding: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image:url("../challenge-2-portfolio/assets/img/spaceship\ earth.jpg");
+    
     position: -webkit-sticky;
     position: sticky;
 
@@ -21,11 +23,13 @@ header nav{
 }
 header h1{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
+    
 }
 header a{
-    color: rgb(209, 208, 208);
+    color: rgb(36, 158, 196);
+    text-decoration: none;
 }
 
 
@@ -42,4 +46,116 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 25px;
 
+}
+/*moto section*/
+.img{
+    background-image:url("../Professional-Portfolio-/assets/img/blue.jpg");
+    padding: 70px;
+}
+.moto h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: black;
+    color:rgb(36, 158, 196);
+    font-size: 30px;
+    text-align: right;
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+}
+
+/*about section*/
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color:black;
+    padding: 20px 500px;
+    text-align: center;
+    color: rgb(36, 158, 196);
+    font-size: 25px;
+    line-height: 1.7;
+    
+}
+.about h2{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px 20px;
+    text-decoration: underline solid rgb(36, 158, 196) 5px
+    ;
+}
+/*work section*/
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(36, 158, 196);
+    padding: 20px 30px;
+    
+
+}
+.work h2{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+    text-decoration: underline 5px ;
+}
+.run-buddy,.future-1,.future-2{
+    border: 5px solid rgb(36, 158, 196);
+    padding: 10px 10px 10px 10px;
+   
+}
+
+/*contact section*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(36, 158, 196);
+    background-color: black;
+}
+.contact h2{
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid rgb(36, 158, 196);
+    margin-top: 30%;
+
+}
+.contact div ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 30px 30px;
+}
+.contact  div ul li {
+    padding: 10px 65px;
+    font-weight: lighter;
+    font-size: 25px;    
+    
+}
+.contact div ul li a{
+    color:rgb(36, 158, 196);
+    text-decoration: none;
+   
+ /*start of footer*/
+}
+footer{
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    color: rgb(36, 158, 196);
+    background-color: rgb(0, 0, 0);
+    ;
 }
