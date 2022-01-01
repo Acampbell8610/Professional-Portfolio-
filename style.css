@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image:url("../challenge-2-portfolio/assets/img/spaceship\ earth.jpg");
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+header nav{
+    margin: 7px 0;
+}
+header h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+header a{
+    color: rgb(209, 208, 208);
+}
+
+
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 25px;
+
+}
