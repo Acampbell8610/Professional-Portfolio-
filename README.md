@@ -32,7 +32,7 @@ The Work section has links to the projects he has accomplished.
 The Contact section has his phone number, email address, github link as well as his linked in profile.
 
 
-![screenshot](./assets/img/Alex Campbell.png)
+![screenshot](assets/img/acampbell.png)
 
 
 ## Credits
