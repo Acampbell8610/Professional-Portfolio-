@@ -50,6 +50,7 @@ header nav ul li a{
 header nav ul li a:hover{
     color: black;
     background-color: rgb(36, 158, 196);
+    border-radius: 15%;
 }
 /*moto section*/
 .img{
@@ -133,7 +134,7 @@ header nav ul li a:hover{
 .run-buddy,.future-1,.future-2{
     border: 5px solid rgb(36, 158, 196);
     padding: 10px 10px 10px 10px;
-    opacity: 90%;
+    opacity: 85%;
     border-radius: 15px;
    
 }
