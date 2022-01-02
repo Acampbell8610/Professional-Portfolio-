@@ -47,6 +47,10 @@ header nav ul li a{
     font-size: 25px;
 
 }
+header nav ul li a:hover{
+    color: black;
+    background-color: rgb(36, 158, 196);
+}
 /*moto section*/
 .img{
     background-image:url("../Professional-Portfolio-/assets/img/blue.jpg");
@@ -62,20 +66,25 @@ header nav ul li a{
     text-align: right;
     padding: 20px 30px 20px 30px;
     width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 
 /*about section*/
 .about{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+ 
     background-color:black;
-    padding: 20px 500px;
-    text-align: center;
+    padding: 20px 10px;
+    text-align: ;
     color: rgb(36, 158, 196);
     font-size: 25px;
     line-height: 1.7;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: rgb(36, 158, 196)solid 3px;
+    border-radius: 15px;
+    margin: 10px;
 }
 .about h2{
     text-align: center;
@@ -85,6 +94,21 @@ header nav ul li a{
     text-decoration: underline solid rgb(36, 158, 196) 5px
     ;
 }
+.about p{
+    margin: 3.5%;
+    text-align: right;
+    width: 35%;
+    
+
+
+}
+.about img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-radius: 15px;
+
+}
 /*work section*/
 .work{
     display: flex;
@@ -93,6 +117,9 @@ header nav ul li a{
     background-color: black;
     color: rgb(36, 158, 196);
     padding: 20px 30px 50px 30px;
+    border-radius: 15px;
+    border: rgb(36, 158, 196)solid 3px;
+    margin: 10px;
     
 
 }
@@ -106,7 +133,12 @@ header nav ul li a{
 .run-buddy,.future-1,.future-2{
     border: 5px solid rgb(36, 158, 196);
     padding: 10px 10px 10px 10px;
+    opacity: 90%;
+    border-radius: 15px;
    
+}
+.run-buddy:hover,.future-1:hover,.future-2:hover{
+    opacity: 100%;
 }
 
 /*contact section*/
@@ -123,8 +155,9 @@ header nav ul li a{
     margin: 0 auto;
     font-size: 35px;
     font-weight: bold;
-    padding: 10px;
-    border-bottom: 5px solid rgb(36, 158, 196);
+    padding: 10px 20px;
+   text-decoration: underline 5px;
+   
    
 
 }
