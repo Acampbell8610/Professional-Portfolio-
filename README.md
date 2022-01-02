@@ -4,25 +4,25 @@
  This is a portfolio of the work that Alex Campbell has accomplished so far in his career.  There is a little information about who he is as well as projects he has worked on and ways of contacting him.
 
 ## Technologies
--HTML
--CSS
+* HTML
+* CSS
 
 ## Installation 
     
-    To install this project locally use git bash:
-
-($git clone https://github.com/Acampbell8610/Professional-Portfolio-.git)
+    To install this project locally use git bash:($git clone https://github.com/Acampbell8610/Professional-Portfolio-.git)
 
  Open using Visual Studio Code
 
-The live url is (#)
+The live url is ( https://acampbell8610.github.io/Professional-Portfolio-/)
 
 ## Usage
 
 There are 3 links in the header to navigate the page. 
--About Me
--Work
--Contact
+
+* About Me
+* Work
+* Contact
+
 Each section describes a part of the business.
 
 The About Me is a short paragraph about who he is.
@@ -36,11 +36,11 @@ The Contact section has his phone number, email address, github link as well as 
 
 
 ## Credits
--https://github.com/coding-boot-camp/urban-octo-telegram
--https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
--Awesome Screenshot
--https://Choosealicense.com/licenses/gpl-3.0/#
--https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
+- https://github.com/coding-boot-camp/urban-octo-telegram
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Awesome Screenshot
+- https://Choosealicense.com/licenses/gpl-3.0/#
+- https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
 
 ## License
                     GNU GENERAL PUBLIC LICENSE
