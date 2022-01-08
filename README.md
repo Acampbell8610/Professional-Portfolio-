@@ -34,7 +34,6 @@ The Contact section has his phone number, email address, github link as well as 
 
 ![screenshot](assets/img/acampbell.png)
 
-
 ## Credits
 - https://github.com/coding-boot-camp/urban-octo-telegram
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide

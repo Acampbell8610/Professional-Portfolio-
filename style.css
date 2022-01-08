@@ -1,15 +1,21 @@
+:root{
+    --primary-color: rgb(37,37,37);
+    --secondary-color: rgb(36,158,196);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     
 
 }
 /*start of header*/
 header{
     padding: 20px;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -25,13 +31,13 @@ header h1{
     font-weight: bold;
     font-size: 40px;
     margin: 0;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
 }
 header a{
-    color: rgb(36, 158, 196);
+    color: var(--secondary-color);
     text-decoration: none;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
     text-shadow:0 0 10px rgba(0, 0, 0, 1.5);
 }
 
@@ -48,12 +54,12 @@ header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 25px;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
 
 }
 header nav ul li a:hover{
     color: black;
-    background-color: rgb(36, 158, 196);
+    background-color: var(--secondary-color);
     border-radius: 15%;
 }
 /*moto section*/
@@ -79,9 +85,8 @@ header nav ul li a:hover{
 /*about section*/
 .about{
  
-    background-color:rgb(37, 37, 37);
+    background-color:var(--primary-color);
     padding: 20px 30px;
-    text-align: ;
     color: rgb(36, 158, 196);
     font-size: 25px;
     line-height: 1.7;
@@ -99,16 +104,16 @@ header nav ul li a:hover{
     font-size: 30px;
     width: 100%;
     padding: 20px 20px;
-    text-decoration: underline solid rgb(36, 158, 196) 5px
+    text-decoration: underline solid var(--secondary-color) 5px
     ;
-    background-color: rgb(37, 37, 37);
+    background-color:var(--primary-color);
     text-shadow: 0 0 10px  rgba(0, 0, 0, 1.5);
 }
 .about p{
     margin: 3.5%;
     text-align: right;
     width: 35%;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
     
 
@@ -119,7 +124,7 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: left;
     border-radius: 15px;
-    border: rgb(36, 158, 196) solid 3px;
+    border:var(--secondary-color) solid 3px;
 
 }
 /*work section*/
@@ -127,11 +132,11 @@ header nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(37, 37, 37);
-    color: rgb(36, 158, 196);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     padding: 20px 30px 50px 30px;
     border-radius: 15px;
-    border: rgb(36, 158, 196)solid 3px;
+    border: var(--secondary-color) solid 3px;
     margin: 5%;
     
 
@@ -142,11 +147,11 @@ header nav ul li a:hover{
     width: 100%;
     padding: 20px 20px 40px 20px;
     text-decoration: underline 5px ;
-    background-color: rgb(37, 37, 37);
+    background-color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
 }
 .run-buddy,.future-1,.future-2{
-    border: 3px solid rgb(36, 158, 196);
+    border: 3px solid var(--secondary-color);
     padding: 10px 10px 10px 10px;
     opacity: 85%;
     border-radius: 15px;
@@ -163,7 +168,7 @@ header nav ul li a:hover{
     justify-content:center;
     padding: 00px 30px 30px 30px;
     font-weight: bold;
-    color: rgb(36, 158, 196);
+    color: var(--secondary-color);
     background-color: black;
     text-shadow: 0 0 10px rgba(212, 207, 207, 0.5);
 }
@@ -192,7 +197,7 @@ header nav ul li a:hover{
     
 }
 .contact div ul li a{
-    color:rgb(36, 158, 196);
+    color:var(--secondary-color);
     text-decoration: none;
 
    
@@ -203,11 +208,37 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content:left;
-    color: rgb(36, 158, 196);
-    background-color: rgb(37, 37, 37);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     ;
 }
 footer h2{
-    background-color: rgb(37, 37, 37);
+    background-color:var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
 }
+/*media quieries*/
+@media screen and (max-width:768px){
+     
+       .about p{width : 100%;
+        text-align: center;
+       }
+    
+}
+@media screen and (max-width:575px){
+ header{
+     padding: 0%;
+
+ }
+ .work{
+     background-color: black;
+     border: black;
+ }
+ .work h2 {
+     background-color: black;
+ }
+
+ 
+}
+    
+
+    
