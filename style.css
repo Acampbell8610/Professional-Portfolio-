@@ -93,7 +93,7 @@ header nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: rgb(36, 158, 196)solid 3px;
+    border: rgb(36, 158, 196) solid 3px;
     border-radius: 15px;
     margin: 10px;
     margin: 5%;
